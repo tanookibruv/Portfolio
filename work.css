@@ -6,7 +6,7 @@
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("./imgs/background.jpeg");
+    background-image: url("./imgs/workback.jpeg");
 }
 
 /* Heading Code */
@@ -42,34 +42,7 @@ a {
     text-decoration: none;
 }
 
-/* Center Piece Code */
-.opening {
-    padding-top: 40px;
-    text-align: center;
-}
 
-.opening h2 {
-    margin: 20px;
-    margin-left: 550px;
-    margin-right: 550px;
-    padding: 10px;
-    background-color: rgb(168, 168, 168);
-    font-size: 50px;
-
-}
-
-.opening p {
-    margin-left: 240px;
-    margin-right: 240px;
-    background-color: rgb(168, 168, 168);
-    font-size: 25px;
-}
-
-.avatar {
-    border-radius: 400px;
-    max-height: 400px;
-    max-width: 400px;
-}
 
 /* Footer Code */
 
