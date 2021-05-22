@@ -9,6 +9,12 @@ body {
     background-image: url("./imgs/background.jpeg");
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /* Heading Code */
 .header {
     padding: 30px;
@@ -37,11 +43,6 @@ body {
    margin-right: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 /* Center Piece Code */
 .opening {
     padding-top: 40px;
@@ -49,18 +50,17 @@ a {
 }
 
 .opening h2 {
-    margin: 20px;
-    margin-left: 550px;
-    margin-right: 550px;
-    padding: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 5px;
     background-color: rgb(168, 168, 168);
     font-size: 50px;
 
 }
 
 .opening p {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin: 20px auto;
+    max-width: 1200px;
     background-color: rgb(168, 168, 168);
     font-size: 25px;
 }
@@ -74,12 +74,10 @@ a {
 /* Footer Code */
 
 .footer {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
+    margin-top: 150px;
+    padding: 35px;
     background-color: rgb(6, 139, 139);
     color: rgb(255, 255, 255);
-    bottom: 0;
 }
 
 .footer h3 {

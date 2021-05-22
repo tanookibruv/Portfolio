@@ -9,6 +9,12 @@ body {
     background-image: url("./imgs/workback.jpeg");
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /* Heading Code */
 .header {
     padding: 30px;
@@ -36,12 +42,6 @@ body {
    display: inline-block;
    margin-right: 20px;
 }
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
 
 
 /* Footer Code */

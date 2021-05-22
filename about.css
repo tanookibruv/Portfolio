@@ -9,6 +9,12 @@ body {
     background-image: url("./imgs/aboutmeback.jpeg");
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /* Heading Code */
 .header {
     padding: 30px;
@@ -37,15 +43,12 @@ body {
    margin-right: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Lore Code */
 .lore {
     padding: 40px;
-    margin: 270px;
+    margin: 260px auto;
+    max-width: 1400px;
     position: relative;
     background-color: rgb(168, 168, 168);
     justify-content: center;
@@ -54,8 +57,7 @@ a {
 /* Footer Code */
 
 .footer {
-    position: absolute;
-    width: 100%;
+    margin-top: 384px;
     padding: 40px;
     background-color: rgb(6, 139, 139);
     color: rgb(255, 255, 255);
