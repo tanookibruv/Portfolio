@@ -22,11 +22,12 @@ a {
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 30px;
 }
 
 .header div {
+    display: inline-flex;
     float: right;
     padding-top: 10px;
     font-size: 30px;
@@ -46,6 +47,9 @@ a {
 .directory {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+    margin: 40px;
+    align-content: space-around;
 }
 
 .cards {
