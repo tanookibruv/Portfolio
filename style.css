@@ -23,11 +23,12 @@ a {
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 30px;
 }
 
 .header div {
+    display: inline-flex;
     float: right;
     padding-top: 10px;
     font-size: 30px;
@@ -39,7 +40,7 @@ a {
 }
 
 .header div ul li {
-   display: inline-block;
+   display: inline-flex;
    margin-right: 20px;
 }
 
@@ -50,6 +51,7 @@ a {
 }
 
 .opening h2 {
+    display: flexbox;
     margin: 20px auto;
     max-width: 600px;
     padding: 5px;
@@ -59,6 +61,7 @@ a {
 }
 
 .opening p {
+    display: flexbox;
     margin: 20px auto;
     max-width: 1200px;
     background-color: rgb(168, 168, 168);
@@ -74,12 +77,10 @@ a {
 /* Footer Code */
 
 .footer {
-    margin-top: 150px;
+    display: flex;
+    margin-top: 180px;
     padding: 35px;
     background-color: rgb(6, 139, 139);
     color: rgb(255, 255, 255);
-}
-
-.footer h3 {
-    text-align: center;
+    justify-content: center;
 }

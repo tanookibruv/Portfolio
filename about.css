@@ -23,11 +23,12 @@ a {
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 30px;
 }
 
 .header div {
+    display: inline-flex;
     float: right;
     padding-top: 10px;
     font-size: 30px;
@@ -39,13 +40,14 @@ a {
 }
 
 .header div ul li {
-   display: inline-block;
+   display: inline-flex;
    margin-right: 20px;
 }
 
 
 /* Lore Code */
 .lore {
+    display: flexbox;
     padding: 40px;
     margin: 260px auto;
     max-width: 1400px;
@@ -57,13 +59,10 @@ a {
 /* Footer Code */
 
 .footer {
-    margin-top: 384px;
+    display: flex;
+    margin-top: 400px;
     padding: 40px;
     background-color: rgb(6, 139, 139);
     color: rgb(255, 255, 255);
-    bottom: 0;
-}
-
-.footer h3 {
-    text-align: center;
+    justify-content: center;
 }

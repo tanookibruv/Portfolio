@@ -14,7 +14,6 @@ a {
     text-decoration: none;
 }
 
-
 /* Heading Code */
 .header {
     padding: 30px;
@@ -43,18 +42,25 @@ a {
    margin-right: 20px;
 }
 
-
-/* Footer Code */
-
-.footer {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
-    background-color: rgb(6, 139, 139);
-    color: rgb(255, 255, 255);
-    bottom: 0;
+/* Contact information */
+.directory {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer h3 {
+.cards {
+    flex: 1 0 500px;
+    padding: 10px;
+    margin-top: 100px;
     text-align: center;
+}
+
+/* Footer Code */
+.footer {
+    display: flex;
+    margin-top: 200px;
+    padding: 35px;
+    background-color: rgb(6, 139, 139);
+    color: rgb(255, 255, 255);
+    justify-content: center;
 }
