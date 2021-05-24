@@ -80,8 +80,6 @@ a {
 
     /* Footer Code */
     .footer {
-        display: flex;
-        margin-top: 480px;
         padding: 35px;
         background-color: rgb(6, 139, 139);
         color: rgb(255, 255, 255);
