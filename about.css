@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
@@ -44,6 +44,9 @@ a {
    margin-right: 20px;
 }
 
+.ToC {
+    color:rgb(255, 255, 255)
+}
 
 /* Lore Code */
 .lore {
