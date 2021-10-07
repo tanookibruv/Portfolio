@@ -44,12 +44,33 @@ a {
    margin-right: 20px;
 }
 
+/* Main Code for examples */
+.examples {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.examples h1, h2{
+    color: black !important;
+    background-color: rgb(168, 168, 168);
+    max-width: fit-content;
+    margin: 25px auto;
+}
+
+.examples h3 {
+    color: blue !important;
+    background-color: rgb(168, 168, 168);
+    max-width: fit-content;
+    margin: 25px auto;  
+}
 
 /* Footer Code */
 
 .footer {
     display: flex;
-    margin-top: 850px;
+    margin-top: 70px;
     padding: 35px;
     background-color: rgb(6, 139, 139);
     color: rgb(255, 255, 255);
@@ -80,7 +101,7 @@ a {
 
     /* Footer Code */
     .footer {
-        padding: 35px;
+        padding: 90px;
         background-color: rgb(6, 139, 139);
         color: rgb(255, 255, 255);
         justify-content: center;
