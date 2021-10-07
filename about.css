@@ -5,12 +5,11 @@
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("./imgs/backgrounds/compressedaboutmeback.jpeg");
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 a {
-    color: white !important;
+    color: black !important;
     text-decoration: none;
 }
 
@@ -18,8 +17,8 @@ a {
 /* Heading Code */
 .header {
     padding: 30px;
-    background-color: rgb(6, 139, 139);
-    color: rgb(255, 255, 255);
+    background-color: #968d81;
+    color: black;
 }
 
 .header h1 {
@@ -44,9 +43,6 @@ a {
    margin-right: 20px;
 }
 
-.ToC {
-    color:rgb(255, 255, 255)
-}
 
 /* Lore Code */
 .lore {
@@ -55,7 +51,6 @@ a {
     margin: 260px auto;
     max-width: 1400px;
     position: relative;
-    background-color: rgb(168, 168, 168);
     justify-content: center;
 }
 
@@ -65,8 +60,8 @@ a {
     display: flex;
     margin-top: 400px;
     padding: 40px;
-    background-color: rgb(6, 139, 139);
-    color: rgb(255, 255, 255);
+    background-color: #968d81;
+    color: black;
     justify-content: center;
 }
 
@@ -75,8 +70,8 @@ a {
 
     .header {
         display: table-header-group;
-        background-color: rgb(6, 139, 139);
-        color: rgb(255, 255, 255);
+        background-color: #968d81;
+        color: black;
         text-align: center;
     }
     
@@ -98,7 +93,6 @@ a {
         margin: 110px auto;
         max-width: 280px;
         position: relative;
-        background-color: rgb(168, 168, 168);
         justify-content: center;
     }
 
@@ -114,8 +108,8 @@ a {
     /* Footer Code */
     .footer {
         padding: 35px;
-        background-color: rgb(6, 139, 139);
-        color: rgb(255, 255, 255);
+        background-color: #968d81;
+        color: black;
         justify-content: center;
         font-size: 15px;
     }

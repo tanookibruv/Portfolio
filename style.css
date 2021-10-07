@@ -6,11 +6,10 @@
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("./imgs//backgrounds/compressedbackground.jpeg");
 }
 
 a {
-    color: white !important;
+    color: black !important;
     text-decoration: none;
 }
 
@@ -18,8 +17,8 @@ a {
 /* Heading Code */
 .header {
     padding: 30px;
-    background-color: rgb(6, 139, 139);
-    color: rgb(255, 255, 255);
+    background-color: #968d81;
+    color: black;
 }
 
 .header h1 {
@@ -55,7 +54,6 @@ a {
     margin: 20px auto;
     max-width: 600px;
     padding: 5px;
-    background-color: rgb(168, 168, 168);
     font-size: 50px;
 
 }
@@ -64,7 +62,6 @@ a {
     display: flexbox;
     margin: 20px auto;
     max-width: 1200px;
-    background-color: rgb(168, 168, 168);
     font-size: 25px;
 }
 
@@ -80,8 +77,8 @@ a {
     display: flex;
     margin-top: 180px;
     padding: 35px;
-    background-color: rgb(6, 139, 139);
-    color: rgb(255, 255, 255);
+    background-color: #968d81;
+    color: black;
     justify-content: center;
 }
 
@@ -91,8 +88,8 @@ a {
 
     .header {
         display: table-header-group;
-        background-color: rgb(6, 139, 139);
-        color: rgb(255, 255, 255);
+        background-color: #968d81;
+        color: black;
         text-align: center;
     }
 
@@ -133,8 +130,8 @@ a {
     /* Footer Code */
     .footer {
         padding: 35px;
-        background-color: rgb(6, 139, 139);
-        color: rgb(255, 255, 255);
+        background-color: #968d81;
+        color: black;
         justify-content: center;
         font-size: 15px;
     }
