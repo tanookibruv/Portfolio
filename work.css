@@ -45,7 +45,7 @@ a {
 }
 
 /* Main Code for examples */
-.examples {
+.examples {    
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -53,6 +53,7 @@ a {
 }
 
 .examples h1, h2{
+    justify-content: flex-start;
     max-width: fit-content;
     margin: 25px auto;
 }
@@ -62,6 +63,13 @@ a {
     background-color: #bbccaa;
     max-width: fit-content;
     margin: 25px auto;  
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 /* Footer Code */
