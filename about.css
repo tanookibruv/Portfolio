@@ -48,10 +48,16 @@ a {
 .lore {
     display: flexbox;
     padding: 40px;
-    margin: 260px auto;
+    margin: 80px auto;
     max-width: 1400px;
     position: relative;
     justify-content: center;
+}
+
+.knowledge {
+    padding: 40px;
+    margin: 10px auto;
+    max-width: 800px;
 }
 
 /* Footer Code */
