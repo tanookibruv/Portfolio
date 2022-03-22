@@ -75,6 +75,9 @@ a {
 
 .footer {
     display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     margin-top: 180px;
     padding: 35px;
     background-color: #968d81;
