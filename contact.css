@@ -18,6 +18,10 @@ img {
     border: 5px solid white;
 }
 
+p {
+    font-size: 40px;
+}
+
 
 /* Heading Code */
 .header {
@@ -66,7 +70,7 @@ img {
 /* Footer Code */
 .footer {
     display: flex;
-    position: fixed;
+    position: bottom;
     bottom: 0;
     width: 100%;
     margin-top: 180px;
