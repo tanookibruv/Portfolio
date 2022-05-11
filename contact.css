@@ -62,8 +62,8 @@ p {
 
 .cards {
     flex: 1 0 500px;
-    padding: 10px;
-    margin-top: 100px;
+    padding: 5px;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ p {
     position: bottom;
     bottom: 0;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 80px;
     padding: 35px;
     background-color: #968d81;
     color: black;
